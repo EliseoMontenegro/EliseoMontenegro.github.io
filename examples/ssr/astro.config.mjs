@@ -3,7 +3,7 @@ import { defineConfig } from 'astro/config';
 import svelte from '@astrojs/svelte';
 import node from '@astrojs/node';
 
-// https://astro.build/config
+// https://EliseoMontenegro.github.io
 export default defineConfig({
 	output: 'server',
 	adapter: node({
