@@ -5,9 +5,6 @@ import node from '@astrojs/node';
 
 // https://EliseoMontenegro.github.io
 export default defineConfig({
-	output: 'server',
-	adapter: node({
-		mode: 'standalone',
-	}),
-	integrations: [svelte()],
-});
+	site: 'https://EliseoMontenegro.github.io',
+	base:'my-repo',
+	})
